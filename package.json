@@ -1,0 +1,17 @@
+{
+  "name": "gcp-pub-sub-deployment",
+  "version": "1.0.0",
+  "description": "A pub/sub deployment",
+  "main": "publish.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tochi",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^4.3.3",
+    "express": "^4.18.3",
+    "express-router": "^0.0.1",
+    "ws": "^8.16.0"
+  }
+}
